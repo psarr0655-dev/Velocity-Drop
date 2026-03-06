@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-  base:/velocity drop/
+  base:/velocity-drop/
   test: {
     environment: "jsdom",
     globals: true,
