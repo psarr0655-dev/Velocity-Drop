@@ -1,9 +1,10 @@
-import { defineConfig } from "velocity drop";
+import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+  base:/velocity drop/
   test: {
     environment: "jsdom",
     globals: true,
